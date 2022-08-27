@@ -4,6 +4,7 @@ from passlib.context import CryptContext
 from datetime import datetime, timedelta
 from decouple import config
 
+
 JWT_KEY = config('JWT_KEY')
 
 
